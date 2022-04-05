@@ -6,7 +6,7 @@
         public int CATEGORYID { get; set; }  
         public string PRODUCTNAME { get; set; } = String.Empty;
         public string IMAGEPATH { get; set; } = String.Empty;
-        public double PRICE { get; set; }
+        public decimal PRICE { get; set; }
         public bool ISDELETED { get; set; }
         public DateTime CREATEDDATE { get; set; }
         public string CREATEUSERID { get; set; } = String.Empty;

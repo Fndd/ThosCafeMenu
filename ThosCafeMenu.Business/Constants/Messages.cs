@@ -44,5 +44,23 @@ namespace ThosCafeMenu.Business.Constants
         public static string ImageListed = "Fotoğraf listelendi.";
         public static string ImageNameAlreadyExists = "Bu isimde daha önce fotoğraf oluşturuldu.";
         public static string ImageCountOfCategoryError = "Mevcut fotoğraf sayısı aşıldı.";
+
+        public static string PropertyAdded = "Özellik eklendi.";
+        public static string PropertyNameInvalid = "Özellik ismi geçersiz.";
+        public static string PropertyDeleted = "Özellik silindi.";
+        public static string PropertyUpdated = "Özellik güncellendi.";
+        public static string PropertysListed = "Özellikler listelendi.";
+        public static string PropertyListed = "Özellik listelendi.";
+        public static string PropertyNameAlreadyExists = "Bu isimde daha önce Özellik oluşturuldu.";
+        public static string PropertyCountOfProductPropertyError = "Mevcut Özellik sayısı aşıldı.";
+
+        public static string ProductPropertyAdded = "Özellik eklendi.";
+        public static string ProductPropertyNameInvalid = "Özellik ismi geçersiz.";
+        public static string ProductPropertyDeleted = "Özellik silindi.";
+        public static string ProductPropertyUpdated = "Özellik güncellendi.";
+        public static string ProductPropertysListed = "Özellikler listelendi.";
+        public static string ProductPropertyListed = "Özellik listelendi.";
+        public static string ProductPropertyNameAlreadyExists = "Bu isimde daha önce Özellik oluşturuldu.";
+        public static string ProductPropertyCountOfProductPropertyError = "Mevcut Özellik sayısı aşıldı.";
     }
 }
