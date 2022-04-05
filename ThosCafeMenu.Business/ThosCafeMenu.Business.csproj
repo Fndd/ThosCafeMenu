@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ThosCafeMenu.Core\ThosCafeMenu.Core.csproj" />
+    <ProjectReference Include="..\ThosCafeMenu.Data\ThosCafeMenu.Data.csproj" />
+    <ProjectReference Include="..\ThosCafeMenu.Entity\ThosCafeMenu.Entity.csproj" />
+  </ItemGroup>
+
+</Project>

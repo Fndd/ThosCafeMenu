@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ThosCafeMenu.Entity
 {
-    internal class Property
+    public class Property
     {
         public int Id { get; set; }
         public string KEY { get; set; } = string.Empty;

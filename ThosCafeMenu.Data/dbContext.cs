@@ -11,6 +11,9 @@ namespace ThosCafeMenu.Data
         }
         public DbSet<Category> CATEGORY { get; set; }
         public DbSet<Product> PRODUCT { get; set; } 
-        public DbSet<User> USER { get; set; } 
+        public DbSet<Property> PROPERTY { get; set; } 
+        public DbSet<ProductProperty> PRODUCTPROPERTY { get; set; } 
+
+        public DbSet<User> USER { get; set; }  
     }
 }
