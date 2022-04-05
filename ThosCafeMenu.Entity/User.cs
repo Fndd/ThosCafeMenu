@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ThosCafeMenu.Entity
+{
+    public class User
+    {
+        public int Id { get; set; } 
+        public string NAME { get; set; } = String.Empty;
+        public string SURNAME { get; set; } = String.Empty;
+        public string HASHPASSWORD { get; set; } = String.Empty;
+        public string SALTPASSWORD { get; set; } = String.Empty;
+    }
+}
